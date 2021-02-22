@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+body{
+    width: 950px;
+    margin: 0 auto;
+    border: 5px solid rgb(3, 3, 44);
+    border-bottom: none;
+}
+
+
+
+table{
+    /* border: 1px solid rgb(150, 73, 73); */
+    width: 600px;
+    border-collapse: collapse;
+    text-align: center;
+        
+}
+
+img{
+    margin-bottom: -5px;
+}
+
+
+table tr td, th{
+    color: red;
+    border-bottom: 1px solid black;
+    padding: 1px;
+    color: rgb(10, 22, 34);
+}
+
+.pink{
+    background-color: pink;
+}
+
+.blue{
+    background-color: rgb(157, 178, 241);
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.left{
+    text-align: left;
+}
+
+.noborder{
+    border-bottom: none;
+}
+/* table tr:nth-child(3) td, th{
+    background-color: rgb(186, 217, 248);
+} */
+
+
